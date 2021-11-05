@@ -149,8 +149,6 @@
 	path = 
 [url "git@github.com:"]
 	insteadOf = https://github.com/
-#[init]
-#	templateDir = /opt/lyft/.git-template
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
