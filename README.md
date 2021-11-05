@@ -17,7 +17,7 @@ Various dot files for zsh, tmux, nvim and git
 	* Brew [The Missing Package Manager for macOS (or Linux) — Homebrew](https://brew.sh/)
 
 ```shell
-brew install neovim fzf tmux
+brew install neovim fzf tmux gh tig ranger ag
 ```
 
 * Install keybinding  [GitHub - junegunn/fzf: A command-line fuzzy finder](https://github.com/junegunn/fzf#using-homebrew)
