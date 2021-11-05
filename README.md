@@ -31,4 +31,3 @@ brew install neovim fzf tmux
 * Copy root files to ~/
 * Double check .gitconfig and .zshrc for errors
 * Install Powerline fonts [GitHub - powerline/fonts: Patched fonts for Powerline users.](https://github.com/powerline/fonts/)
-* 
