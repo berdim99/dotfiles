@@ -17,13 +17,14 @@ Various dot files for zsh, tmux, nvim and git
 	* Brew [The Missing Package Manager for macOS (or Linux) — Homebrew](https://brew.sh/)
 
 ```shell
-brew install neovim fzf tmux gh tig ranger ag
+brew install neovim fzf tmux gh tig ranger ag git-delta bat exa
 ```
 
 * Install keybinding  [GitHub - junegunn/fzf: A command-line fuzzy finder](https://github.com/junegunn/fzf#using-homebrew)
 * Install VIM plugins
 	* https://github.com/junegunn/vim-plug
 * https://ohmyz.sh/#install
+* Install https://github.com/romkatv/powerlevel10k#oh-my-zsh and it's fonts
 * https://github.com/zsh-users/zsh-autosuggestions
 * clone [GitHub - berdim99/dotfiles: Micha’s dotfiles](https://github.com/berdim99/dotfiles)
 	* copy nvim files to ~_.config_nvim/
