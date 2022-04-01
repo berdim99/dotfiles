@@ -58,3 +58,5 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#808080"
 
 export GOBIN=$HOME/go/bin
 export PATH=$GOBIN:$PATH
+
+source ~/lscolors.sh
