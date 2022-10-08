@@ -39,6 +39,12 @@ alias v=nvim
 alias vim=nvim
 alias vf='vim $(fzf)'
 
+# Helix
+alias hx="helix"
+alias vh='helix $(fzf)'
+
+unalias duf
+
 export TIMER_THRESHOLD=3
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
@@ -59,4 +65,4 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#808080"
 export GOBIN=$HOME/go/bin
 export PATH=$GOBIN:$PATH
 
-source ~/.lscolors.sh
+#source ~/.lscolors.sh

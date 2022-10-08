@@ -32,3 +32,11 @@ brew install neovim fzf tmux gh tig ranger ag git-delta bat exa fd
 * Copy root files to ~/
 * Double check .gitconfig and .zshrc for errors
 * Install Powerline fonts [GitHub - powerline/fonts: Patched fonts for Powerline users.](https://github.com/powerline/fonts/)
+
+## Linux setup (arch)
+* `pacman -S helix tmux the_silver_searcher fzf neovim bat duf`
+* Install ohmyzsh from: https://ohmyz.sh/#install
+* https://github.com/zsh-users/zsh-autosuggestions
+* Install VIM plugins
+	* https://github.com/junegunn/vim-plug
+* Copy nvim/init.vim to ~/.config/nvim/
