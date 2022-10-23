@@ -33,13 +33,16 @@ brew install neovim fzf tmux gh tig ranger ag git-delta bat exa fd
 * Double check .gitconfig and .zshrc for errors
 * Install Powerline fonts [GitHub - powerline/fonts: Patched fonts for Powerline users.](https://github.com/powerline/fonts/)
 
-## Linux setup (Arch)
-* `pacman -S helix tmux the_silver_searcher fzf neovim bat duf`
-* Install ohmyzsh from: https://ohmyz.sh/#install
+## New Ubuntu setup
+* Install needed software
+  ```shell
+	sudo apt update
+	sudo apt install zsh fzf silversearcher-ag gnome-tweaks fd-find gh bat exa duf htop
+ 	```
+* Change shell to zsh using `chsh`
+* Install [helix editor](https://helix-editor.com/)
+* Use 'TWeaks' app to map caps lock -> Esc
+* https://ohmyz.sh/#install
+* Install https://github.com/romkatv/powerlevel10k#oh-my-zsh and it's fonts
 * https://github.com/zsh-users/zsh-autosuggestions
-* Install VIM plugins
-	* https://github.com/junegunn/vim-plug
-* Copy nvim/init.vim to ~/.config/nvim/
-
-### For development (Arch linux)
-* `pacman -S cmake make`
+* Copy helix config to ~/.config/helix
