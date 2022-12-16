@@ -15,6 +15,7 @@ Various dot files for zsh, tmux, nvim and git
 		* Fira Code fonts [GitHub - tonsky/FiraCode: Free monospaced font with programming ligatures](https://github.com/tonsky/FiraCode)
 		* Size 180x50
 	* Brew [The Missing Package Manager for macOS (or Linux) — Homebrew](https://brew.sh/)
+	* Finder extension - [SourceCodeSyntaxHighlight](https://github.com/sbarex/SourceCodeSyntaxHighlight)
 
 ```shell
 brew install neovim fzf tmux gh tig ranger ag git-delta bat exa fd
