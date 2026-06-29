@@ -1,0 +1,7 @@
+new_tab work
+cd ~
+launch zsh
+
+new_tab misc
+cd ~
+launch zsh
