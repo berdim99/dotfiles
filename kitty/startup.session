@@ -1,7 +1,25 @@
+# Example multi-tab layout. Adjust tab names and paths to your projects.
+# new_tab project-run
+# cd ~/src/project/ts/frontend
+# launch --title "FE" zsh
+# cd ~/src/project/python/apps/project-api
+# launch --title "API" zsh
+
 new_tab work
-cd ~
+cd ~/src
+launch zsh
+
+new_tab work-2
+layout horizontal
+cd ~/src
+launch zsh
 launch zsh
 
 new_tab misc
+cd ~
+launch zsh
+
+# Newsboat in a separate OS window
+new_os_window newsboat
 cd ~
 launch zsh

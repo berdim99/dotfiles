@@ -1,11 +1,16 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
 Plug 'mileszs/ack.vim'
 Plug 'Yohannfra/Nvim-Switch-Buffer'
 Plug 'vim-airline/vim-airline'
 Plug 'ap/vim-buftabline'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'nvim-lua/plenary.nvim'
+"Plug 'ThePrimeagen/harpoon'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " Initialize plugin system
 call plug#end()
@@ -115,8 +120,24 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 " Nvim-Switch-Buffer plugin shortcut
 nnoremap S :SwitchBuffer <cr>
 
-set bg=dark
+set bg=light
 
 set nowrapscan
 
 map <F5> :setlocal spell!<CR>
+
+" Find files using Telescope command-line sugar.
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
+" Using Lua functions
+nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
+nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
+nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
+nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
+
+"colorscheme morning
+"colorscheme desert
+colorscheme evening
